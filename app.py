@@ -8,7 +8,7 @@ app.secret_key = "cairocoders-ednalan"
 DB_HOST = "192.168.0.111"
 DB_NAME = "sampledb"
 DB_USER = "postgres"
-DB_PASS = "P@ssw0rd"
+DB_PASS = "Passw0rd"
  
 conn = psycopg2.connect(dbname=DB_NAME, user=DB_USER, password=DB_PASS, host=DB_HOST)
  
